@@ -1,67 +1,89 @@
 # AI Virtual Painter 🎨
 
-An interactive computer vision application that allows users to draw on a virtual canvas using hand gestures in front of a webcam.
+A real-time hand gesture-based virtual painting application built using Python, OpenCV, and MediaPipe.
 
-## Features
+Draw on a virtual canvas using your fingers without touching your computer screen!
+
+## 🚀 Features
 
 - Real-time hand tracking using MediaPipe.
-- Detection of all five fingers.
-- Draw using the index finger.
-- Select colors using the index and middle fingers.
+- Detects 21 hand landmarks.
+- Draw using your index finger.
+- Select drawing colors using a two-finger gesture.
 - Pause drawing using a closed-fist gesture.
-- Brush and eraser modes.
-- Adjustable brush thickness.
-- Clear and save drawings.
-- Interactive OpenCV interface.
+- Switch between brush and eraser.
+- Adjust brush thickness.
+- Clear the canvas.
+- Save your drawings as images.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - OpenCV
 - MediaPipe
 - NumPy
 
-## Installation
+## ⚙️ Installation and Setup
 
 1. Clone the repository:
 
-   `git clone YOUR_GITHUB_REPOSITORY_URL`
+   ```bash
+   git clone https://github.com/rahulkumaryenugula0308-dev/AI-Virtual-Painter.git
+   ```
 
-2. Navigate into the project folder:
+2. Navigate to the project folder:
 
-   `cd AI_Virtual_Painter`
+   ```bash
+   cd AI-Virtual-Painter
+   ```
 
-3. Install dependencies:
+3. Install the required libraries:
 
-   `pip install -r requirements.txt`
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Run the application:
 
-   `python main.py`
+   ```bash
+   python main.py
+   ```
 
-## Keyboard Controls
+## 🎮 Controls
 
-| Key | Action |
+| Gesture / Key | Action |
 |---|---|
-| E | Eraser |
+| Index finger | Draw |
+| Index + Middle fingers | Select color |
+| Closed fist | Pause drawing |
 | B | Brush |
+| E | Eraser |
 | C | Clear canvas |
 | S | Save drawing |
 | [ | Decrease brush size |
 | ] | Increase brush size |
 | Q | Quit application |
 
-## How It Works
+## 📂 Project Structure
 
-The webcam captures real-time video frames. MediaPipe detects hand landmarks, and the application uses finger positions to recognize gestures. OpenCV processes the video frames and displays the drawing canvas.
+```text
+AI-Virtual-Painter/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── output/
+```
 
-## Future Improvements
+## 🎯 Learning Outcomes
 
-- More reliable gesture recognition.
-- Additional drawing tools.
-- Undo and redo functionality.
-- Background customization.
+- Real-time computer vision application development.
+- Hand landmark detection and tracking.
+- Gesture recognition.
+- Image processing using OpenCV.
+- Working with MediaPipe.
 
-## Author
+## 👨‍💻 Author
 
-Developed as a Computer Vision project using Python.
+Developed as a hands-on Computer Vision project using Python.
