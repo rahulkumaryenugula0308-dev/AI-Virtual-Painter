@@ -1,6 +1,6 @@
 # AI Virtual Painter 🎨
 
-A real-time hand gesture-based virtual painting application built using Python, OpenCV, and MediaPipe.
+A real-time hand gesture-based virtual painting application built using **Python, OpenCV, and MediaPipe**.
 
 Draw on a virtual canvas using your fingers without touching your computer screen!
 
@@ -16,38 +16,60 @@ Draw on a virtual canvas using your fingers without touching your computer scree
 - Clear the canvas.
 - Save your drawings as images.
 
+## 📸 Project Screenshots
+
+### 1. Main Interface
+
+The main application interface displaying the webcam feed, toolbar, and drawing canvas.
+
+![Main Interface](screenshots/main_interface.png)
+
+### 2. Drawing Mode
+
+Draw on the virtual canvas using your index finger.
+
+![Drawing Mode](screenshots/drawing_mode.png)
+
+### 3. Color Selection
+
+Select different drawing colors using a two-finger gesture.
+
+![Color Selection](screenshots/color_selection.png)
+
 ## 🛠️ Technologies Used
 
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
+- **Python** – Main programming language.
+- **OpenCV** – Real-time video processing and drawing operations.
+- **MediaPipe** – Hand landmark detection and tracking.
+- **NumPy** – Canvas creation and array operations.
 
 ## ⚙️ Installation and Setup
 
-1. Clone the repository:
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/rahulkumaryenugula0308-dev/AI-Virtual-Painter.git
-   ```
+```bash
+git clone https://github.com/rahulkumaryenugula0308-dev/AI-Virtual-Painter.git
+```
 
-2. Navigate to the project folder:
+### 2. Navigate to the project folder
 
-   ```bash
-   cd AI-Virtual-Painter
-   ```
+```bash
+cd AI-Virtual-Painter
+```
 
-3. Install the required libraries:
+### 3. Install the required libraries
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-4. Run the application:
+### 4. Run the application
 
-   ```bash
-   python main.py
-   ```
+```bash
+python main.py
+```
+
+**Note:** Make sure your webcam is connected and accessible before running the application.
 
 ## 🎮 Controls
 
@@ -60,8 +82,8 @@ Draw on a virtual canvas using your fingers without touching your computer scree
 | E | Eraser |
 | C | Clear canvas |
 | S | Save drawing |
-| [ | Decrease brush size |
-| ] | Increase brush size |
+| `[` | Decrease brush size |
+| `]` | Increase brush size |
 | Q | Quit application |
 
 ## 📂 Project Structure
@@ -73,17 +95,27 @@ AI-Virtual-Painter/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── output/
+│
+├── screenshots/
+│   ├── main_interface.png
+│   ├── drawing_mode.png
+│   └── color_selection.png
+│
+└── output/  (Generated drawings)
 ```
 
 ## 🎯 Learning Outcomes
 
-- Real-time computer vision application development.
-- Hand landmark detection and tracking.
-- Gesture recognition.
-- Image processing using OpenCV.
-- Working with MediaPipe.
+- Developed a real-time computer vision application.
+- Learned hand landmark detection and tracking.
+- Implemented gesture recognition using hand landmarks.
+- Practiced image processing using OpenCV.
+- Worked with MediaPipe and NumPy.
+- Integrated computer vision techniques into an interactive application.
 
 ## 👨‍💻 Author
 
 Developed as a hands-on Computer Vision project using Python.
+
+**GitHub Repository:**  
+https://github.com/rahulkumaryenugula0308-dev/AI-Virtual-Painter
